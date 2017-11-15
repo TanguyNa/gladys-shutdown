@@ -1,5 +1,5 @@
 {
-  "name": "shutdown-telegram",
+  "name": "shutdown",
   "version": "0.0.1",
   "description": "Gladys hooks to shutdown",
   "main": "index.js",
@@ -11,6 +11,6 @@
     "shutdown",
     "module"
   ],
-  "author": "Tanguy NAMORA"
+  "author": "@TanguyNa"
 
 }

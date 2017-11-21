@@ -36,21 +36,6 @@ REBOOT_CMD=sudo reboot
 ```
 
 
-#### Add sentences to the database
-
-```
-mysql -uroot -proot
-```
-
-```
-use gladys;
-```
-
-```
-insert into sentence(text, label, service, language, status) values('Gladys éteins-toi', 'shutdown', 'shutdown', 'fr', 'approved');
-insert into sentence(text, label, service, language, status) values('Gladys redémarre', 'reboot', 'shutdown', 'fr', 'approved');
-```
-
 #### Install the module on gladys
 
 Nom : shutdown 
@@ -61,6 +46,9 @@ slug : shutdown
 
 #### Restart Gladys
 
+#### Sentences are automatically added by the hook as you can see in the brain :
+In french language : Eteinds-toi / Redémarre.
+In other languages : Shutdown / Reboot
 
 ####
 

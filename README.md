@@ -39,7 +39,7 @@ REBOOT_CMD=sudo reboot
 #### Install the module on gladys
 
 Nom : shutdown 
-Version : 0.0.1 
+Version : 0.0.2 
 URL git : https://github.com/TanguyNa/gladys-shutdown
 slug : shutdown
 
@@ -47,7 +47,7 @@ slug : shutdown
 #### Restart Gladys
 
 #### Sentences are automatically added by the hook as you can see in the brain :
-In french language : Eteinds-toi / Redémarre.
+In french language : Eteinds-toi / Redémarre
 In other languages : Shutdown / Reboot
 
 ####
